@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angel Mitch - Portafolio Profesional | Ingeniería de Sistemas</title>
+    
+    <!-- ============================================
+         GOOGLE FONTS - Tipografía moderna para dark mode
+         ============================================ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- ============================================
+         ESTILOS EXTERNOS
+         ============================================ -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- ============================================
+         NAVEGACIÓN (NAVBAR FIJA)
+         ============================================ -->
+    <nav class="navbar">
+        <div class="container">
+            <!-- 
+            PERSONALIZA AQUÍ: Reemplaza "./ruta-logo-uncp.png" con la ruta de tu logo
+            El logo debe ser PNG o SVG para mejor calidad en dark mode
+            Dimensión recomendada: 45px de alto
+            -->
+            <img src="img\uncp.png" alt="Logo UNCP" class="nav-logo">
+
+            <ul class="nav-links">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#skills">Aptitudes</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         SECCIÓN HERO (Inicio principal)
+         ============================================ -->
+    <section id="hero" class="hero animate-on-scroll">
+        <div class="container">
+            <div class="hero-content">
+                <div>
+                    <!-- Nombre principal -->
+                    <h1>
+                        Huaynate Coriñaupa<br>
+                        Angel <span>Mitch</span>
+                    </h1>
+
+                    <!-- Subtítulo animado con efecto cursor parpadeante -->
+                    <div class="hero-subtitle">Estudiante de Ingeniería de Sistemas - IX Semestre</div>
+
+                    <!-- Información personal -->
+                    <div class="hero-info">
+                        <p>
+                            <span class="label">Universidad:</span>
+                            Universidad Nacional del Centro del Perú (UNCP)
+                        </p>
+                        <p>
+                            <span class="label">Código:</span>
+                            2022100535C
+                        </p>
+                    </div>
+
+                    <!-- Botones de acción -->
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Ver mis proyectos</a>
+                        <a href="#contact" class="btn btn-secondary">Contáctame</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Imagen de perfil con resplandor -->
+            <div class="hero-image">
+                <!-- 
+                PERSONALIZA AQUÍ: Reemplaza "./ruta-de-mi-foto.jpg" con la ruta de tu foto de perfil
+                Formato recomendado: JPG o PNG
+                Dimensión: Cuadrada preferiblemente (400x400 px mínimo)
+                La foto tendrá un borde azul y efecto de resplandor automáticamente
+                -->
+                <img src="img\foto angel.png" alt="Angel Mitch" class="profile-pic">
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SECCIÓN SOBRE MÍ
+         ============================================ -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+
+            <div class="about-content animate-on-scroll">
+                <p>
+                    Soy un estudiante de los últimos ciclos de Ingeniería de Sistemas con una pasión genuina por la arquitectura de software 
+                    y la innovación tecnológica. Me especializo en la resolución de problemas complejos enfocados en el entorno empresarial, 
+                    combinando conocimientos técnicos sólidos con una visión integral de las soluciones tecnológicas. 
+                    Mi objetivo es diseñar y desarrollar sistemas escalables, seguros y eficientes que generen valor real en las organizaciones.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SECCIÓN APTITUDES Y HABILIDADES
+         ============================================ -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Aptitudes y Habilidades</h2>
+
+            <div class="skills-grid animate-on-scroll">
+                <!-- Idiomas -->
+                <div class="skill-category">
+                    <h3>🌐 Idiomas</h3>
+                    <div class="badges-container">
+                        <span class="badge">Inglés - Nivel Intermedio</span>
+                    </div>
+                </div>
+
+                <!-- Competencias Core -->
+                <div class="skill-category">
+                    <h3>⚙️ Competencias Core</h3>
+                    <div class="badges-container">
+                        <span class="badge">Programación Informática</span>
+                        <span class="badge">Desarrollo Web</span>
+                        <span class="badge-secondary">Diseño de BD (MySQL, SQL Server)</span>
+                    </div>
+                </div>
+
+                <!-- Técnicas Adicionales -->
+                <div class="skill-category">
+                    <h3>🚀 Técnicas Adicionales</h3>
+                    <div class="badges-container">
+                        <span class="badge-secondary">Integración de IA</span>
+                        <span class="badge-tertiary">Ciberseguridad</span>
+                        <span class="badge-tertiary">Metodologías Ágiles (Scrum, ITIL)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SECCIÓN PROYECTOS - Grid interactivo
+         ============================================ -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyectos Destacados</h2>
+
+            <div class="projects-grid">
+
+                <!-- PROYECTO 1 -->
+                <div class="project-card animate-on-scroll">
+                    <span class="project-tag">Desarrollo Web</span>
+                    <h3>Sistema Web de Ventas e Inventario con IA</h3>
+                    <p class="project-description">
+                        Plataforma integral para la gestión de ventas e inventario con módulos avanzados de análisis predictivo 
+                        mediante inteligencia artificial. Incluye panel administrativo interactivo, reportes dinámicos, 
+                        control de usuarios y automatización de procesos comerciales.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Machine Learning</span>
+                    </div>
+                    <a href="https://github.com/GrilloCantorr/Semana02" target="_blank" class="btn-github">Ver código en GitHub</a>
+                </div>
+
+                <!-- PROYECTO 2 -->
+                <div class="project-card animate-on-scroll delay-100">
+                    <span class="project-tag">Base de Datos</span>
+                    <h3>Modelado de Base de Datos Académica</h3>
+                    <p class="project-description">
+                        Diseño y modelado completo de una base de datos empresarial para sistemas académicos, 
+                        incluyendo gestión de estudiantes, cursos, calificaciones, asistencia y generación de reportes. 
+                        Implementado en SQL Server con optimización de consultas y vistas materializadas.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">SQL Server</span>
+                        <span class="tech-tag">T-SQL</span>
+                        <span class="tech-tag">Modelado ER</span>
+                        <span class="tech-tag">Índices</span>
+                    </div>
+                    <a href="https://github.com/GrilloCantorr/Semana02.1" target="_blank" class="btn-github">Ver código en GitHub</a>
+                </div>
+
+                <!-- PROYECTO 3 -->
+                <div class="project-card animate-on-scroll delay-200">
+                    <span class="project-tag">Ciberseguridad</span>
+                    <h3>Análisis de Vulnerabilidades de Red</h3>
+                    <p class="project-description">
+                        Herramienta avanzada para análisis y escaneo de vulnerabilidades en infraestructuras de red. 
+                        Genera reportes detallados con recomendaciones de mitigación, evaluación de riesgos y documentación 
+                        completa de hallazgos de seguridad identificados.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Nmap</span>
+                        <span class="tech-tag">Scapy</span>
+                        <span class="tech-tag">Security</span>
+                    </div>
+                    <a href="https://github.com/GrilloCantorr/Semana4.1" target="_blank" class="btn-github">Ver código en GitHub</a>
+                </div>
+
+                <!-- PROYECTO 4 -->
+                <div class="project-card animate-on-scroll delay-300">
+                    <span class="project-tag">Frontend</span>
+                    <h3>Dashboard de Análisis de Datos en Tiempo Real</h3>
+                    <p class="project-description">
+                        Dashboard interactivo para visualización de datos empresariales en tiempo real con gráficos dinámicos, 
+                        filtros avanzados y exportación de reportes. Implementado con tecnologías modernas para máximo rendimiento 
+                        y experiencia de usuario.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Chart.js</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">WebSockets</span>
+                    </div>
+                    <a href="https://github.com/GrilloCantorr/Semana4.22" target="_blank" class="btn-github">Ver código en GitHub</a>
+                </div>
+
+                <!-- PROYECTO 5 -->
+                <div class="project-card animate-on-scroll">
+                    <span class="project-tag">API REST</span>
+                    <h3>API REST para Gestión de Microservicios</h3>
+                    <p class="project-description">
+                        Arquitectura de microservicios con API REST escalable y robusta. Incluye autenticación JWT, 
+                        manejo de errores, versionado de API, documentación Swagger y tests automatizados para garantizar 
+                        calidad y confiabilidad.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">JWT</span>
+                        <span class="tech-tag">Docker</span>
+                    </div>
+                    <a href="https://github.com/GrilloCantorr/semana05-dashboard" target="_blank" class="btn-github">Ver código en GitHub</a>
+                </div>
+
+                <!-- PROYECTO 6 -->
+                <div class="project-card animate-on-scroll delay-100">
+                    <span class="project-tag">Mobile</span>
+                    <h3>Aplicación Móvil de Gestión Empresarial</h3>
+                    <p class="project-description">
+                        Aplicación móvil nativa para Android e iOS que permite a los usuarios gestionar tareas, proyectos 
+                        y colaboración en equipo desde sus dispositivos. Incluye sincronización en la nube y modo offline.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">SQLite</span>
+                        <span class="tech-tag">RESTful API</span>
+                    </div>
+                    <a href="https://github.com/SwodLore/Semana5-Practica2" target="_blank" class="btn-github">Ver código en GitHub</a>
+                </div>
+
+                <!-- PROYECTO 7 -->
+                <div class="project-card animate-on-scroll delay-200">
+                    <span class="project-tag">DevOps</span>
+                    <h3>Infraestructura CI/CD Automatizada</h3>
+                    <p class="project-description">
+                        Pipeline de integración y despliegue continuo automatizado usando GitHub Actions y AWS. 
+                        Incluye tests automatizados, análisis de código, construcción de imágenes Docker y despliegue 
+                        en múltiples entornos.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">GitHub Actions</span>
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Terraform</span>
+                    </div>
+                    <a href="https://github.com/Sullit0/desarrollo-web-semana-6" target="_blank" class="btn-github">Ver código en GitHub</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SECCIÓN CONTACTO
+         ============================================ -->
+    <section id="contact" class="contact animate-on-scroll">
+        <div class="container">
+            <h2 class="section-title">¿Hablamos?</h2>
+            <p class="contact-subtitle">
+                Estoy disponible para discutir oportunidades, colaboraciones y proyectos innovadores.
+            </p>
+            <a href="mailto:e_100535C@uncp.edu.pe" class="btn btn-primary">Envíame un correo</a>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">
+                    &copy; 2026 Huaynate Coriñaupa Angel Mitch. Todos los derechos reservados.
+                </p>
+
+                <!-- Redes sociales -->
+                <ul class="social-links">
+                    <li>
+                        <a href="#" target="_blank" title="LinkedIn">
+                            <span>🔗</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" title="GitHub">
+                            <span>💻</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================
+         SCRIPT EXTERNO - Animaciones e Interactividad
+         ============================================ -->
+    <script src="script.js"></script>
+
+</body>
+</html>
