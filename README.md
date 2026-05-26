@@ -10,7 +10,6 @@
 ├── 📄 style.css               ← Estilos CSS (Dark Mode)
 ├── 📄 script.js               ← JavaScript (Animaciones)
 ├── 📄 README.md               ← Este archivo
-└── 📄 PERSONALIZACION.md      ← Guía detallada de personalización
 ```
 
 ## 🔧 Estructura Modular del Código
@@ -58,20 +57,6 @@
 # Linux: Doble clic o xdg-open index.html
 ```
 
-### 2. Personaliza 5 Elementos
-
-| Elemento | Busca en `index.html` |
-|----------|---------------------|
-| 🎨 **Logo UNCP** | `<!-- PERSONALIZA AQUÍ: Reemplaza "./ruta-logo-uncp.png"` |
-| 📸 **Tu Foto** | `<!-- PERSONALIZA AQUÍ: Reemplaza "./ruta-de-mi-foto.jpg"` |
-| 💻 **GitHub (×7)** | `<!-- PERSONALIZA AQUÍ: Reemplaza "ENLACE_GITHUB_AQUI"` |
-| 📧 **Email** | `<!-- PERSONALIZA AQUÍ: Reemplaza "tu-email@ejemplo.com"` |
-| 🔗 **Redes Sociales** | `<!-- PERSONALIZA AQUÍ: Reemplaza los enlaces "#"` |
-
-### 3. Lee la Guía Completa
-👉 Abre **PERSONALIZACION.md** para más detalles
-
----
 
 ## 🎨 Paleta de Colores (Dark Mode)
 
@@ -134,36 +119,4 @@ Si usas VS Code:
 1. Sube `index.html` a tu servidor
 2. Accede via `tu-dominio.com`
 
-## 💡 Tips
 
-- Usa imágenes de buena calidad (mínimo 350×350 px para foto)
-- Mantén los enlaces de GitHub actualizados
-- Prueba en móvil con `Ctrl+Shift+M` (DevTools)
-- Limpia caché con `Ctrl+F5` para ver cambios
-
-## ❓ FAQs
-
-**P: ¿Necesito conocimientos de programación?**  
-R: No, solo reemplaza texto entre los comentarios "PERSONALIZA AQUÍ"
-
-**P: ¿Funciona sin Internet?**  
-R: Casi todo funciona, excepto las fuentes de Google Fonts
-
-**P: ¿Puedo cambiar el contenido?**  
-R: Sí, todo está comentado en el HTML para fácil edición
-
-**P: ¿Es seguro?**  
-R: Completamente, no hay servidores backend, todo es estático
-
-## 📞 Soporte Rápido
-
-1. Busca tu problema en `PERSONALIZACION.md`
-2. Consulta los comentarios en `index.html`
-3. Valida el código en validator.w3.org
-
----
-
-**¡Tu portafolio profesional está listo para brillar!** ✨
-
-Última actualización: 19 de mayo de 2026  
-Versión: 2.0 (Dark Mode Pro)
