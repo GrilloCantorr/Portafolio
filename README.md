@@ -1,122 +1,114 @@
-# ✨ Portafolio Profesional Angel Mitch v2.0 (Modular)
+# 🎓 Portafolio Profesional - Huaynate Coriñaupa Angel Mitch
 
-> Portafolio moderno con Dark Mode, animaciones fluidas, 7 proyectos y **código separado y modular**.
+Portafolio profesional moderno con Dark Mode, animaciones fluidas y 7 proyectos destacados de un estudiante de Ingeniería de Sistemas.
 
-## 📦 Archivos Incluidos
+---
+
+## 📋 Acerca del Proyecto
+
+Portafolio personal que muestra la trayectoria académica y profesional de Angel Mitch, estudiante de IX semestre de Ingeniería de Sistemas en la Universidad Nacional del Centro del Perú (UNCP).
+
+El sitio presenta una interfaz moderna, limpia y profesional con diseño oscuro (Dark Mode), animaciones suaves al desplazarse y una estructura completamente responsiva que funciona en todos los dispositivos.
+
+---
+
+## ✨ Características Principales
+
+- **Dark Mode Profesional** - Paleta de colores oscura con acentos azul eléctrico y verde esmeralda
+- **Animaciones Fluidas** - Fade-in, slide-up al scroll y hover effects con Intersection Observer
+- **7 Proyectos Destacados** - Portafolio de desarrollo web, bases de datos, ciberseguridad y más
+- **100% Responsivo** - Funciona perfectamente en mobile, tablet y desktop
+- **Código Modular** - Estructura separada en HTML, CSS y JavaScript
+- **Glassmorphism** - Efectos modernos en tarjetas de proyectos
+- **Sin Dependencias** - Solo HTML, CSS y JavaScript puro
+
+---
+
+## 🏗️ Estructura del Código
 
 ```
 📁 Portafolio/
-├── 📄 index.html              ← Estructura HTML (Puro)
-├── 📄 style.css               ← Estilos CSS (Dark Mode)
-├── 📄 script.js               ← JavaScript (Animaciones)
-├── 📄 README.md               ← Este archivo
+├── 📄 index.html       Estructura HTML semántica
+├── 📄 style.css        Estilos Dark Mode con animaciones
+├── 📄 script.js        Interactividad y animaciones
+└── 📄 README.md        Este archivo
 ```
 
-## 🔧 Estructura Modular del Código
+### `index.html`
+Archivo HTML puro con estructura semántica. Contiene todas las secciones del portafolio: navegación, hero, sobre mí, habilidades, proyectos, contacto y footer.
 
-### `index.html` - HTML Puro
-- Estructura semántica limpia
-- Solo comentarios para personalización
-- Referencias a CSS y JavaScript externos
-- 7 proyectos y todas las secciones
+### `style.css`
+Hoja de estilos que define:
+- Variables CSS para colores (Dark Mode)
+- Animaciones keyframes (slideUp, fadeIn, glowPulse)
+- Efectos hover y transiciones
+- Diseño responsive con breakpoints (1024px, 768px, 600px, 480px)
+- Estilos de componentes (navbar, hero, cards, badges)
 
-### `style.css` - Estilos Modular
-- Variables CSS para colores
-- Estilos organizados por secciones
-- Dark Mode profesional
-- Animaciones keyframes
-- Responsive design
-- ~600 líneas bien comentadas
-
-### `script.js` - JavaScript Modular
-- Intersection Observer para animaciones
-- Smooth scroll
+### `script.js`
+Funcionalidad JavaScript que incluye:
+- Intersection Observer para animaciones al scroll
+- Smooth scroll en navegación
 - Funciones auxiliares
 - Sin dependencias externas
-- ~80 líneas reutilizables
 
 ---
 
-## ✅ Ventajas de la Estructura Modular
+## 🎨 Diseño Visual
 
-✨ **Mantenimiento Fácil** - Cada archivo tiene una responsabilidad  
-✨ **Personalización Rápida** - Cambia estilos sin tocar HTML/JS  
-✨ **Rendimiento** - Archivos separados se cachean mejor  
-✨ **Escalabilidad** - Fácil agregar más componentes  
-✨ **Buenas Prácticas** - Separación de responsabilidades (MVC)  
-✨ **Legibilidad** - Código limpio y comentado  
+**Paleta de Colores:**
+- Fondo Principal: `#0a0a0a`
+- Fondo Secundario: `#1a1a1a`
+- Acento Primario: `#3b82f6` (Azul eléctrico)
+- Acento Secundario: `#10b981` (Verde esmeralda)
+- Acento Terciario: `#8b5cf6` (Violeta neón)
+- Texto Principal: `#e5e5e5`
+- Títulos: `#ffffff`
+
+**Tipografía:**
+- Inter (300-800 pesos) - Texto principal
+- Poppins (600-800 pesos) - Títulos y headings
 
 ---
 
-## 🚀 Inicio Rápido
+## 📱 Secciones del Portafolio
 
-### 1. Abre `index.html`
-```bash
-# Windows: Doble clic o arrastra a navegador
-# macOS: Doble clic
-# Linux: Doble clic o xdg-open index.html
-```
+1. **Navbar** - Menú de navegación fija con logo UNCP
+2. **Hero** - Sección de bienvenida con nombre, foto y botones de acción
+3. **Sobre Mí** - Descripción profesional y objetivos
+4. **Habilidades** - Badges organizados en 3 categorías (Idiomas, Competencias Core, Técnicas Adicionales)
+5. **Proyectos** - Grid de 7 proyectos con descripción, tecnologías y enlace a GitHub
+6. **Contacto** - Sección con CTA para contacto por email
+7. **Footer** - Copyright, redes sociales e información adicional
 
+---
 
-## 🎨 Paleta de Colores (Dark Mode)
+## 💻 Proyectos Incluidos
 
-```
-Fondo Principal:      #0a0a0a
-Fondo Secundario:     #1a1a1a
-Acento Primario:      #3b82f6  (Azul eléctrico)
-Acento Secundario:    #10b981  (Verde esmeralda)
-Acento Terciario:     #8b5cf6  (Violeta neón)
-Texto Principal:      #e5e5e5  (Gris claro)
-Títulos:              #ffffff  (Blanco)
-```
+1. **Sistema Web de Ventas e Inventario con IA** - Python, Flask, MySQL, Machine Learning
+2. **Modelado de Base de Datos Académica** - SQL Server, T-SQL, Modelado ER
+3. **Análisis de Vulnerabilidades de Red** - Python, Nmap, Scapy, Security
+4. **Dashboard de Análisis de Datos en Tiempo Real** - React, Chart.js, Node.js, WebSockets
+5. **API REST para Gestión de Microservicios** - Node.js, Express, JWT, Docker
+6. **Aplicación Móvil de Gestión Empresarial** - Flutter, Firebase, SQLite, RESTful API
+7. **Infraestructura CI/CD Automatizada** - GitHub Actions, AWS, Docker, Terraform
 
-## 📱 Secciones
+Cada proyecto incluye descripción detallada, stack tecnológico y enlace al repositorio en GitHub.
 
-1. **Navbar** - Menú fijo con logo UNCP
-2. **Hero** - Nombre, título, información + foto
-3. **Sobre Mí** - Descripción profesional
-4. **Habilidades** - Badges con 3 categorías
-5. **Proyectos** - 7 tarjetas con efecto glassmorphism
-6. **Contacto** - CTA con botón de email
-7. **Footer** - Copyright + redes sociales
+---
 
-## 🔧 Personalización Rápida
+## 📧 Información de Contacto
 
-### Cambiar Colores
-Dentro de `<style>`, busca `:root {` y modifica:
-```css
---accent-primary: #3b82f6;    /* Cambiar a tu color preferido */
---accent-secondary: #10b981;
-```
+- **Email:** e_100535C@uncp.edu.pe
+- **Código de Estudiante:** 2022100535C
+- **Universidad:** Universidad Nacional del Centro del Perú (UNCP)
+- **Carrera:** Ingeniería de Sistemas
+- **Semestre:** IX
 
-### Cambiar Tipografía
-Actualmente usa Google Fonts: `Inter` y `Poppins`  
-Para cambiar, modifica el link de fonts en `<head>`
+---
 
-### Agregar/Quitar Proyectos
-Duplica o elimina bloques `<div class="project-card">`
+## 🎯 Objetivo del Portafolio
 
-## 📝 Extensiones Recomendadas
-
-Si usas VS Code:
-- **Live Server** - Para ver cambios en tiempo real
-- **Prettier** - Para formatear código
-- **HTML CSS Support** - Para autocompletado
-
-## 🌐 Cómo Desplegar
-
-### GitHub Pages
-1. Sube tu carpeta a un repositorio en GitHub
-2. Ve a Settings → Pages
-3. Selecciona "Deploy from a branch"
-4. Tu sitio estará en: `https://tu-usuario.github.io/Portafolio`
-
-### Netlify
-1. Arrastra tu carpeta a https://app.netlify.com
-2. ¡Automáticamente desplegado!
-
-### Tu Servidor
-1. Sube `index.html` a tu servidor
-2. Accede via `tu-dominio.com`
+Demostrar las competencias técnicas adquiridas durante la formación académica en Ingeniería de Sistemas, incluyendo programación, diseño de bases de datos, desarrollo web, ciberseguridad e integración de inteligencia artificial en soluciones empresariales.
 
 
